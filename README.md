@@ -18,14 +18,15 @@ pip3 install plotly dash dash_daq psutil pandas numpy matplotlib
 
 The InstrumentKit package supports communications through
 a variety of protocols (GPIB, RS232, USBTMC, etc.). Only
-the fork of `francois-drielsma` supports the Fluke 3000 FC,
+the fork of `DanielMDouglas` supports the Fluke 3000 FC,
 Keithley 485, HP E3631A and Glassman FR-series devices,
+as well as a homemade thermometer driver,
 so pull that one specifically.
 
 1. Pull the repository
 
 ```bash
-git clone https://github.com/francois-drielsma/InstrumentKit
+git clone https://github.com/DanielMDouglas/InstrumentKit
 ```
 
 2. Install the package
